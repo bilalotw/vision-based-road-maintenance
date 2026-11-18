@@ -1,0 +1,3 @@
+image,mask,distress_type,severity,road_id,scale_mm_per_pixel
+../raw/images/sample1.jpg,../raw/masks/sample1.png,pothole,2,road_A,
+../raw/images/sample2.jpg,../raw/masks/sample2.png,longitudinal_crack,1,road_B,

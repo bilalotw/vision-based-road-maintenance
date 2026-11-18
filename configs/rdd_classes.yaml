@@ -1,0 +1,10 @@
+canonical_classes:
+  - longitudinal_crack
+  - transverse_crack
+  - alligator_crack
+  - pothole
+source_to_canonical:
+  D00: longitudinal_crack
+  D10: transverse_crack
+  D20: alligator_crack
+  D40: pothole

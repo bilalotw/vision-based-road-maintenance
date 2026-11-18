@@ -1,0 +1,17 @@
+seed: 42
+device: 0
+task: detect
+model: yolo11s.pt
+data: data/processed/rdd/data.yaml
+epochs: 100
+imgsz: 960
+batch: 8
+workers: 8
+patience: 25
+optimizer: AdamW
+lr0: 0.001
+weight_decay: 0.0005
+amp: true
+cache: false
+project: outputs/yolo
+name: pavement
